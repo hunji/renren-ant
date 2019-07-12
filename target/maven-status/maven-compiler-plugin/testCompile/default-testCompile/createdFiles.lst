@@ -1,0 +1,9 @@
+com\youhualife\modules\sendrepair\service\impl\UserOccServiceImplTest.class
+com\youhualife\RedisTest.class
+com\youhualife\modules\topprod\service\impl\OCCServiceImplTest.class
+com\youhualife\modules\topprod\service\impl\TabHttzServiceImplTest.class
+com\youhualife\service\DynamicDataSourceTestService.class
+com\youhualife\service\DynamicDataSourceTestService2.class
+com\youhualife\DynamicDataSourceTest.class
+com\youhualife\JwtTest.class
+com\youhualife\modules\sendrepair\service\impl\SerialNumberServiceImplTest.class

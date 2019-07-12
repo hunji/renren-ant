@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.youhualife.modules.sendrepair.dao.OrderWheelInfoDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.youhualife.modules.sendrepair.entity.OrderWheelInfoEntity" id="orderWheelInfoMap">
+        <result property="id" column="id"/>
+        <result property="operatingInterval" column="operating_interval"/>
+        <result property="trainNumber" column="train_number"/>
+        <result property="trainFormation" column="train_formation"/>
+        <result property="position" column="position"/>
+        <result property="wheelNum" column="wheel_num"/>
+        <result property="alxeNum" column="alxe_num"/>
+        <result property="gearboxNum" column="gearbox_num"/>
+        <result property="hasFour" column="has_four"/>
+        <result property="fourMile" column="four_mile"/>
+        <result property="mile" column="mile"/>
+        <result property="reason" column="reason"/>
+        <result property="suggest" column="suggest"/>
+        <result property="troubleShooting" column="trouble_shooting"/>
+        <result property="hasLeftBearing" column="has_left_bearing"/>
+        <result property="hasRightBearing" column="has_right_bearing"/>
+        <result property="liftBearingMile" column="lift_bearing_mile"/>
+        <result property="rightBearingMile" column="right_bearing_mile"/>
+        <result property="remark" column="remark"/>
+        <result property="createBy" column="create_by"/>
+        <result property="createdDate" column="created_date"/>
+    </resultMap>
+
+
+</mapper>
